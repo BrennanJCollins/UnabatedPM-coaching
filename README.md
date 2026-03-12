@@ -69,7 +69,7 @@ Three chained workflows combine skills for end-to-end coaching:
 Clone this repo and add the plugin directories to your configuration:
 
 ```bash
-git clone https://github.com/brennancollins/unabated-pm-coaching.git
+git clone https://github.com/BrennanJCollins/unabated-pm-coaching.git
 ```
 
 Each plugin group (`pm-strategic-thinking`, `pm-business-building`, `pm-customer-influence`) contains a `.claude-plugin/plugin.json` manifest for auto-discovery.
