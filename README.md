@@ -42,14 +42,14 @@ Template skills give you a well-organized MBA binder. Coaching skills give you a
 | **P&L Translation Coach** | Speak the language of finance | M6 |
 | **Bridge Builder Coach** | Connect features to revenue through a 5-level bridge | M7 |
 | **ROI Calculator Builder** | Build defensible ROI models | M7 |
-| **Demo Script Reviewer** | Turn feature tours into deals that close | M7 |
 
-### Customer & Influence (`pm-customer-influence`)
+### Stakeholder & Customer Influence (`pm-influence`)
 
 | Skill | What It Coaches | Module |
 |---|---|---|
 | **Interview Question Design Coach** | Design questions that reveal truth, not confirmation | M2 |
 | **Journey Map Economic Overlay Coach** | Add economic context to journey maps | M2 |
+| **Demo Script Reviewer** | Turn feature tours into deals that close | M7 |
 | **Strategic Storytelling Pitch Coach** | Transform pitches into compelling stories | M8 |
 | **Cafe Update Coach** | Compress impact into 60-second pitches | M8 |
 | **Confidence Scenario Simulator** | Practice high-stakes conversations with realistic pushback | M8 |
@@ -60,7 +60,7 @@ Three chained workflows combine skills for end-to-end coaching:
 
 - **Coach Strategy** (`pm-strategic-thinking/commands/coach-strategy.md`): Vision Synthesis → Strategy Articulation → Stakeholder Reframe
 - **Coach Business Case** (`pm-business-building/commands/coach-business-case.md`): Metrics Ladder → Unit Economics → P&L Translation
-- **Coach Pitch** (`pm-customer-influence/commands/coach-pitch.md`): Strategic Storytelling → Cafe Update → Confidence Simulator
+- **Coach Pitch** (`pm-influence/commands/coach-pitch.md`): Strategic Storytelling → Cafe Update → Confidence Simulator
 
 ## Installation
 
@@ -72,7 +72,7 @@ Clone this repo and add the plugin directories to your configuration:
 git clone https://github.com/BrennanJCollins/unabated-pm-coaching.git
 ```
 
-Each plugin group (`pm-strategic-thinking`, `pm-business-building`, `pm-customer-influence`) contains a `.claude-plugin/plugin.json` manifest for auto-discovery.
+Each plugin group (`pm-strategic-thinking`, `pm-business-building`, `pm-influence`) contains a `.claude-plugin/plugin.json` manifest for auto-discovery.
 
 ### Any LLM (ChatGPT, Gemini, etc.)
 
@@ -91,11 +91,10 @@ The skill will coach you through the framework, push back on weak thinking, and 
 
 ## The Proof
 
-- **300+** PMs coached through mentorship and course cohorts
+- **500+** PMs coached through mentorship and course cohorts
 - **36+** student promotions within 6 months of course completion
 - **4.9/5** course rating on Maven
-- **$121K** corporate training contract with PwC (2026)
-- Used by PMs at companies including PwC, Valtech, Mastercard, and more
+- Used by PMs at companies from startups to Fortune 500
 
 > "These aren't skills that write documents for you. They're skills that challenge your thinking the way a senior PM leader would." — Brennan Collins
 

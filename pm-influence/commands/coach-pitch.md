@@ -72,4 +72,4 @@ Rate overall readiness: "If the person you pitched immediately said 'Let's get t
 
 ---
 
-*Part of the [Unabated PM Coaching](https://unabatedproducts.com/ai-tools) skills suite by Brennan Collins. Based on The Influential PM course methodology — 300+ PMs coached, 36+ promotions, 4.9/5 course rating.*
+*Part of the [Unabated PM Coaching](https://unabatedproducts.com/ai-tools) skills suite by Brennan Collins. Based on The Influential PM course methodology — 500+ PMs coached, 36+ promotions, 4.9/5 course rating.*
