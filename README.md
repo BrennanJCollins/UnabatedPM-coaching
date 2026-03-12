@@ -1,8 +1,8 @@
 # Unabated PM Coaching Skills
 
-**The first coaching-depth PM skills for AI.** Most PM skills tell AI what framework to apply. These teach AI how to coach you through it — with scoring rubrics, behavioral markers, real coaching exchanges, and pushback on weak thinking.
+**The first coaching-depth PM skills for AI.** Most PM skills tell AI what framework to apply. These teach AI how to coach you through it with scoring rubrics, behavioral markers, real coaching exchanges, and pushback on weak thinking.
 
-Built from 300+ PM mentorship sessions, 36+ student promotions, and a 4.9/5 rated course on Maven.
+Built from training and coaching 500+ product managers, dozens of student promotions and new jobs, and a 4.9/5 rated course on Maven.
 
 ## Why These Are Different
 
@@ -101,7 +101,7 @@ The skill will coach you through the framework, push back on weak thinking, and 
 
 ## About
 
-Created by [Brennan Collins](https://unabatedproducts.com), founder of Unabated Products and creator of [The Influential PM](https://maven.com/brennan-collins/the-influential-pm) course on Maven.
+Created by [Brennan Collins](https://unabatedproducts.com), founder of Unabated Products and creator of [The Influential PM]([https://maven.com/unabated-products/the-influential-pm]) course on Maven.
 
 The skills encode practitioner frameworks developed across 15+ years of product leadership — not textbook PM theory. Every coaching exchange, scoring rubric, and failure pattern comes from real mentorship sessions with real PMs facing real challenges.
 
