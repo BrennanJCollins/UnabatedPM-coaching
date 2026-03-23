@@ -1,128 +1,139 @@
-# Unabated PM Coaching Skills
+# Unabated PM Coaching
 
-**The first coaching-depth PM skills for AI.** Most PM skills tell AI what framework to apply. These teach AI how to coach you through it with scoring rubrics, behavioral markers, real coaching exchanges, and pushback on weak thinking.
+**27 AI coaching skills that teach you to think like a senior PM.** Not templates that fill in blanks. Coaching that pushes back on your thinking, scores your work, and shows you exactly where it breaks down.
 
-Built from training and coaching 500+ product managers, dozens of student promotions and new jobs, and a 4.9/5 rated course on Maven.
+Built from coaching 500+ product managers. 36+ promotions. 4.9/5 course rating on Maven.
 
-## Why These Are Different
+## What You Get
 
-| | Template Skills | Coaching Skills (Unabated) |
-|---|---|---|
-| **Approach** | "Apply this framework" | "Let me push your thinking" |
-| **Example exchanges** | None | Dozens per skill |
-| **Scoring rubrics** | None | Multi-level with behavioral anchors |
-| **Error correction** | None | Symptom / Diagnosis / Fix patterns |
-| **Before/after** | None | Full paragraph-level transformations |
-| **Practitioner voice** | Textbook | Opinionated, direct, uses real stories |
-| **Adaptive behavior** | Same for all levels | Detects user level, adjusts coaching |
+Most AI "PM tools" apply a framework like a checklist. These skills coach you through it the way a VP of Product would — with scoring rubrics, real coaching exchanges, error correction, and pushback on weak reasoning. They detect your level and adjust.
 
-Template skills give you a well-organized MBA binder. Coaching skills give you a VP of Product who sits next to you and challenges your thinking in real time.
+27 individual skills across four areas, plus 5 guided workflows that chain skills together for complete coaching sessions.
 
-## Skills
+## How to Use These Skills
 
-### Strategic Thinking (`pm-strategic-thinking`)
+### Claude Desktop (Cowork)
 
-| Skill | What It Coaches | Module |
-|---|---|---|
-| **Order Taker to Outcome Owner** | Transform from task executor to strategic PM | M1 |
-| **Four Pillars PM Check** | Evaluate yourself across Strategy, Delivery, CX, Growth | M1 |
-| **Vision Synthesis Coach** | Build a compelling product vision using the Vision Triangle | M4 |
-| **Strategy Articulation Coach** | Pressure-test your strategy with the 5 Questions + DHM Filter | M4 |
-| **Stakeholder Request Reframe** | Turn stakeholder demands into strategic conversations | M5 |
-| **AI Career Impact Advisor** | Navigate AI's impact on PM with feature parity, human ingenuity, and career positioning | — |
+Install the plugin from the [Cowork plugin marketplace](https://unabatedproducts.com/ai-tools). Once installed, all 27 skills activate automatically based on what you ask. You can also run any of the five guided workflows as slash commands:
 
-### Business Building (`pm-business-building`)
+- `/coach-strategy` — Build your vision, pressure-test your strategy, prepare for stakeholder pushback
+- `/coach-business-case` — Connect metrics to outcomes, calculate unit economics, translate to P&L
+- `/coach-pitch` — Craft your story, compress to 60 seconds, practice under pressure
+- `/coach-job-search` — Redesign your resume, narrow your niche, simulate interviews
+- `/coach-career-pivot` — Map your background to PM, channel impostor syndrome, plan your first 90 days
 
-| Skill | What It Coaches | Module |
-|---|---|---|
-| **Product Metrics Ladder** | Build metrics that ladder to business outcomes | M3 |
-| **User-Buyer Bridge Coach** | Connect user needs to buyer economics | M3 |
-| **Business Model Canvas Coach** | Stress-test your business model with unit economics | M6 |
-| **Product Objective Definition Coach** | Define objectives that drive decisions, not vanity | M6 |
-| **Unit Economics Calculator** | Build unit economics that survive CFO scrutiny | M6 |
-| **P&L Translation Coach** | Speak the language of finance | M6 |
-| **Bridge Builder Coach** | Connect features to revenue through a 5-level bridge | M7 |
-| **ROI Calculator Builder** | Build defensible ROI models | M7 |
+### ChatGPT, Gemini, Claude Web, or Any AI Chat
 
-### Stakeholder & Customer Influence (`pm-influence`)
+Each skill is a standalone file you can use with any AI tool. Here's how:
 
-| Skill | What It Coaches | Module |
-|---|---|---|
-| **Interview Question Design Coach** | Design questions that reveal truth, not confirmation | M2 |
-| **Journey Map Economic Overlay Coach** | Add economic context to journey maps | M2 |
-| **Demo Script Reviewer** | Turn feature tours into deals that close | M7 |
-| **Strategic Storytelling Pitch Coach** | Transform pitches into compelling stories | M8 |
-| **Cafe Update Coach** | Compress impact into 60-second pitches | M8 |
-| **Confidence Scenario Simulator** | Practice high-stakes conversations with realistic pushback | M8 |
-| **First 90 Days Playbook** | Build influence in a new role through absorb-first strategy | — |
+1. Browse the skill folders in this repo (organized by category below)
+2. Open the `SKILL.md` file for the skill you want
+3. Copy the entire contents
+4. Paste it into your AI tool as a custom instruction, system prompt, or at the start of a new conversation
+5. Add your own context where it says `[Paste your context here]` and start the coaching session
 
-### Career Growth (`pm-career-growth`)
+That's it. No installation, no configuration. The skill turns any AI into your PM coach for that topic.
+
+### Claude Code (CLI)
+
+Add the plugin directly from this repo:
+
+```
+claude plugin add https://github.com/BrennanJCollins/unabated-pm-coaching
+```
+
+All skills and commands will be available immediately.
+
+## Skills by Category
+
+### Strategic Thinking
 
 | Skill | What It Coaches |
 |---|---|
-| **Resume as Product Coach** | Redesign your resume as a conversion funnel with strategic storytelling |
-| **PM Interview Coach** | Practice interviews with simulation, not STAR rehearsal |
-| **Niche Job Search Strategist** | Narrow your search for fewer applications, better fits |
-| **Career Transition Navigator** | Map your non-PM background onto the Four Pillars of PM |
-| **Impostor to Strategist** | Convert impostor syndrome into a career development strategy |
-| **Offer Negotiation Playbook** | Negotiate offers using leverage and total comp analysis |
+| [Order Taker to Outcome Owner](pm-strategic-thinking/skills/order-taker-to-outcome-owner/SKILL.md) | Stop executing tasks. Start owning outcomes. |
+| [Four Pillars Check](pm-strategic-thinking/skills/four-pillars-check/SKILL.md) | Score yourself across Strategy, Delivery, CX, and Growth. Find your blind spots. |
+| [Vision Synthesis](pm-strategic-thinking/skills/vision-synthesis/SKILL.md) | Build a product vision using the Vision Triangle that passes 4 quality tests. |
+| [Strategy Articulation](pm-strategic-thinking/skills/strategy-articulation/SKILL.md) | Pressure-test your strategy with 5 Questions + the DHM Filter. |
+| [Stakeholder Request Reframe](pm-strategic-thinking/skills/stakeholder-request-reframe/SKILL.md) | Turn "build this feature" demands into strategic conversations. |
+| [AI Career Impact Advisor](pm-strategic-thinking/skills/ai-career-impact-advisor/SKILL.md) | Navigate AI's impact on your PM career with positioning strategy. |
 
-## Workflows
+### Business Building
 
-Five chained workflows combine skills for end-to-end coaching:
+| Skill | What It Coaches |
+|---|---|
+| [Product Metrics Ladder](pm-business-building/skills/product-metrics-ladder/SKILL.md) | Connect features to business outcomes. Stop pitching vanity metrics. |
+| [User-Buyer Bridge](pm-business-building/skills/user-buyer-bridge/SKILL.md) | Translate what users need into what buyers will pay for. |
+| [Business Model Canvas](pm-business-building/skills/business-model-canvas/SKILL.md) | Stress-test your business model with real unit economics. |
+| [Product Objective Definition](pm-business-building/skills/product-objective-definition/SKILL.md) | Define objectives that drive decisions, not just decorate OKR slides. |
+| [Unit Economics Calculator](pm-business-building/skills/unit-economics-calculator/SKILL.md) | Build CAC, LTV, and LTV:CAC models that survive CFO scrutiny. |
+| [P&L Translation](pm-business-building/skills/pnl-translation/SKILL.md) | Speak the language of finance. Map product impact to P&L lines. |
+| [Bridge Builder](pm-business-building/skills/bridge-builder/SKILL.md) | Connect user jobs to buyer economics through a 5-level bridge. |
+| [ROI Calculator Builder](pm-business-building/skills/roi-calculator-builder/SKILL.md) | Build ROI models using Good/Better/Best that pass the 10X Rule. |
 
-- **Coach Strategy** (`pm-strategic-thinking/commands/coach-strategy.md`): Vision Synthesis → Strategy Articulation → Stakeholder Reframe
-- **Coach Business Case** (`pm-business-building/commands/coach-business-case.md`): Metrics Ladder → Unit Economics → P&L Translation
-- **Coach Pitch** (`pm-influence/commands/coach-pitch.md`): Strategic Storytelling → Cafe Update → Confidence Simulator
-- **Coach Job Search** (`pm-career-growth/commands/coach-job-search.md`): Resume Design → Niche Search → Interview Simulation
-- **Coach Career Pivot** (`pm-career-growth/commands/coach-career-pivot.md`): Career Transition → Impostor Strategy → First 90 Days
+### Stakeholder & Customer Influence
 
-## Installation
+| Skill | What It Coaches |
+|---|---|
+| [Interview Question Design](pm-influence/skills/interview-question-design/SKILL.md) | Design questions that uncover real problems, not confirmation bias. |
+| [Journey Map Economic Overlay](pm-influence/skills/journey-map-economic-overlay/SKILL.md) | Turn journey maps from process diagrams into economic stories. |
+| [Demo Script Reviewer](pm-influence/skills/demo-script-reviewer/SKILL.md) | Stop touring features. Start closing deals. Five-Act Demo Structure. |
+| [Strategic Storytelling Pitch](pm-influence/skills/strategic-storytelling-pitch/SKILL.md) | Transform forgettable pitches into stories that get to "yes." |
+| [Cafe Update](pm-influence/skills/cafe-update/SKILL.md) | Compress your impact into 60 seconds that land a follow-up meeting. |
+| [Confidence Scenario Simulator](pm-influence/skills/confidence-scenario-simulator/SKILL.md) | Practice high-stakes conversations with realistic pushback. |
+| [First 90 Days Playbook](pm-influence/skills/first-90-days-playbook/SKILL.md) | Build influence in a new role by absorbing before directing. |
 
-### Claude Code / Cowork / Compatible AI Tools
+### Career Growth
 
-Clone this repo and add the plugin directories to your configuration:
+| Skill | What It Coaches |
+|---|---|
+| [Resume as Product](pm-career-growth/skills/resume-as-product-coach/SKILL.md) | Treat your resume as a conversion funnel, not a biography. |
+| [PM Interview Coach](pm-career-growth/skills/pm-interview-coach/SKILL.md) | Practice interviews as conversations, not rehearsed STAR performances. |
+| [Niche Job Search Strategist](pm-career-growth/skills/niche-job-search-strategist/SKILL.md) | Fewer applications, better results. Run your search like a product launch. |
+| [Career Transition Navigator](pm-career-growth/skills/career-transition-navigator/SKILL.md) | Map your non-PM background onto the Four Pillars. You already have 3 of 4. |
+| [Impostor to Strategist](pm-career-growth/skills/impostor-to-strategist/SKILL.md) | Convert impostor syndrome into a career development strategy. |
+| [Offer Negotiation Playbook](pm-career-growth/skills/offer-negotiation-playbook/SKILL.md) | Negotiate with leverage and total comp analysis, not emotion. |
 
-```bash
-git clone https://github.com/BrennanJCollins/unabated-pm-coaching.git
+## Guided Workflows
+
+These chain 3 skills together into a complete coaching session. Available as slash commands in Claude Desktop and Claude Code, or paste the workflow file into any AI tool.
+
+| Workflow | What It Does | Skills Used |
+|---|---|---|
+| [Coach Strategy](pm-strategic-thinking/commands/coach-strategy.md) | End-to-end strategy development | Vision Synthesis, Strategy Articulation, Stakeholder Reframe |
+| [Coach Business Case](pm-business-building/commands/coach-business-case.md) | Build a business case that gets funded | Metrics Ladder, Unit Economics, P&L Translation |
+| [Coach Pitch](pm-influence/commands/coach-pitch.md) | Craft and deliver a compelling pitch | Strategic Storytelling, Cafe Update, Confidence Simulator |
+| [Coach Job Search](pm-career-growth/commands/coach-job-search.md) | Full job search preparation | Resume Design, Niche Search, Interview Simulation |
+| [Coach Career Pivot](pm-career-growth/commands/coach-career-pivot.md) | Transition into product management | Career Mapping, Impostor Strategy, First 90 Days |
+
+## Quick Example
+
+Here's what a coaching session looks like. You provide context, the skill coaches you through the framework:
+
+```
+I'm a PM at a B2B analytics platform. My VP asked me to "build a mobile app
+because customers keep requesting it." I need to respond strategically
+instead of just saying yes.
 ```
 
-Each plugin group (`pm-strategic-thinking`, `pm-business-building`, `pm-influence`, `pm-career-growth`) contains a `.claude-plugin/plugin.json` manifest for auto-discovery.
+The **Stakeholder Request Reframe** skill will:
+1. Identify that you're about to be an order-taker
+2. Coach you to ask "what's the underlying need?"
+3. Help you generate multiple solutions to that need
+4. Guide you to evaluate which solution serves your strategy
+5. Give you a reframe script you can actually use in the meeting
 
-### Any LLM (ChatGPT, Gemini, etc.)
-
-Each skill is a standalone markdown file. Copy the contents of any `SKILL.md` file and use it as a system prompt or custom instruction in your preferred AI tool.
-
-### Using a Skill
-
-Invoke any skill with your context. For example:
-
-```
-/cafe-update My product is a B2B analytics platform. I'm talking to our VP of Sales.
-We just shipped a new dashboard that helped Acme Corp identify $2M in at-risk renewals.
-```
-
-The skill will coach you through the framework, push back on weak thinking, and help you iterate until your output is strong.
+No generic advice. Specific coaching with scoring, pushback, and iteration until your response is strong.
 
 ## The Proof
 
-- **500+** PMs coached through mentorship and course cohorts
-- **36+** student promotions within 6 months of course completion
-- **4.9/5** course rating on Maven
-- Used by PMs at companies from startups to Fortune 500
+500+ PMs coached. 36+ promotions within 6 months. 4.9/5 course rating on Maven. Used by PMs from startups to Fortune 500.
 
-> "These aren't skills that write documents for you. They're skills that challenge your thinking the way a senior PM leader would." — Brennan Collins
+These skills encode 15+ years of product leadership into coaching frameworks that actually push your thinking — not textbook theory repackaged as AI prompts.
 
 ## About
 
 Created by [Brennan Collins](https://unabatedproducts.com), founder of Unabated Products and creator of [The Influential PM](https://maven.com/unabated-products/the-influential-pm) course on Maven.
 
-The skills encode practitioner frameworks developed across 15+ years of product leadership — not textbook PM theory. Every coaching exchange, scoring rubric, and failure pattern comes from real mentorship sessions with real PMs facing real challenges.
-
 ## License
 
 MIT — use these skills however you want. If they help you grow as a PM, that's the goal.
-
----
-
-*Part of the [Unabated PM Coaching](https://unabatedproducts.com/ai-tools) skills suite.*
