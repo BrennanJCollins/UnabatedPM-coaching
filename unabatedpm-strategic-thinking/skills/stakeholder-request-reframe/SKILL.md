@@ -147,7 +147,7 @@ After using sincere curiosity to understand the problem, deliver your reframe us
 
 ---
 
-PRODUCT JUDO: POSITIONING WHEN PRIORITIES CONFLICT
+STAKEHOLDER JUDO: POSITIONING WHEN PRIORITIES CONFLICT
 
 After delivering the reframe, if the request conflicts with your current roadmap:
 
